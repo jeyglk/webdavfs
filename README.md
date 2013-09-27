@@ -50,6 +50,6 @@ When compiled, load the webdavfs module in the kernel and mount the virtual file
     # mount –t webdavfs any /mnt/point/path
 
 
-Then, we have to launch webavClient. From the webdavClient build directory:
+Then, from the webdavClient build directory:
 
     # ./webdavClient
