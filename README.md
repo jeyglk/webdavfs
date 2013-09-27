@@ -4,7 +4,7 @@ webdavfs
 A WebDAV network filesystem PoC
 
 
-To test our solution, we need a GNU/Linux host, ideally running on Linux 3.10, with ownCloud (tested on ownCloud 5.0.11), compilation tools.
+To test our solution, we need a GNU/Linux host, ideally running on Linux 3.10, with ownCloud (tested on ownCloud 5.0.11) and compilation tools.
 
 
 Disclaimer
