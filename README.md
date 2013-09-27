@@ -23,22 +23,22 @@ Prerequisite
 Download
 ========
 
-$ git clone https://github.com/jeyglk/webdavfs.git webdavfs
+    $ git clone https://github.com/jeyglk/webdavfs.git webdavfs
 
 
 Building webdavfs
 =================
 
-$ cd webdavfs/
-$ make
+    $ cd webdavfs/
+    $ make
 
 
 Building webdavClient
 =====================
 
-$ cd webdavClient/build/
-$ cmake -DCMAKE_BUILD_TYPE=Release ..
-$ make
+    $ cd webdavClient/build/
+    $ cmake -DCMAKE_BUILD_TYPE=Release ..
+    $ make
 
 
 Usage
@@ -46,10 +46,10 @@ Usage
 
 When compiled, load the webdavfs module in the kernel and mount the virtual filesystem. Run the following commands from the webdavfs directory:
 
-# insmod webdavfs.ko
-# mount –t webdavfs any /mnt/point/path
+    # insmod webdavfs.ko
+    # mount –t webdavfs any /mnt/point/path
 
 
 Then, we have to launch webavClient. From the webdavClient build directory:
 
-# ./webdavClient
+    # ./webdavClient
